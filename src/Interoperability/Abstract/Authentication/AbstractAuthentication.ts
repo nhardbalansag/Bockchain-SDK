@@ -43,6 +43,6 @@ export abstract class AbstractAuthentication{
         })
     }
 
-    // public abstract AuthenticateUser(header_opts: object, req: object): string
+    public abstract AuthenticateUser(header_opts: object, req: object): string
 
 }

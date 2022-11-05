@@ -2,12 +2,8 @@ import { AbstractAuthentication } from './Interoperability/Abstract/Authenticati
 import { Authentication } from './Interoperability/Class/Authentication/authentication'
 import { applyMixins } from "./Config/utils";
 
-class InterOperability extends AbstractAuthentication{
+class InterOperability extends Authentication{
     
-}
-
-interface InterOperability extends Authentication{
-
 }
 
 applyMixins(InterOperability, [Authentication]);
