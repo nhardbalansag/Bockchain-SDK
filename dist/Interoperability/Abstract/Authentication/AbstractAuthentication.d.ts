@@ -7,4 +7,5 @@ export declare abstract class AbstractAuthentication {
     constructor(username: string, password: string, apiKey: string);
     ToolTest: () => void;
     AccessApiEndPoint: (resource_route: string, req_headers: Headers, options?: RequestInit) => object;
+    abstract AuthenticateUser(header_opts: object, req: object): string;
 }
