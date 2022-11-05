@@ -103,13 +103,10 @@
   "include": ["src"],
   "exclude": [
     "node_modules", 
-    "test", 
+    "Test", 
     "lib",
-    "src/setup.ts", 
-    "src/Config/config.ts", 
-    "src/Interoperability/Abstract/Authentication/AbstractAuthentication.ts", 
-    "src/Interoperability/Class/Authentication/authentication.ts", 
-    "src/Interoperability/Model/Authentication/authentication-model.ts", 
+    "Config", 
+    "Interoperability", 
     "**/*spec.ts"
   ]
 }
